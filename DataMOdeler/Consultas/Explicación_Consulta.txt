@@ -1,0 +1,75 @@
+$ Utilizando la tabla emple, obten los apellidos de los empleados que 
+  tienen el mismo oficio que tiene GIL
+
+#La mayoría de las consultas en sql que afectan a dos o más tablas 
+  1 mediante convinación de tablas (join)
+  2 mediante subconsultas
+  
+  select Apellido From Emple where OFICIO = (select OFICIO from Emple
+												where Apellido='GIL');
+==========================================================================
+1- Select donde saque nombre del apellido, oficio, codigo de departamento y nombre de departamento.
+select * from EMPLE, DEPART where EMPLE.DEPT_NO=DEPART.DEPT_NO;
+2- Codigo empleado y nombre de los empleados que trabajan en Barcelona
+											
+==========================================================================
+REM ******** TABLA DEPART: ***********
+
+DROP TABLE DEPART cascade constraints; 
+
+CREATE TABLE DEPART (
+ DEPT_NO  NUMBER(2) NOT NULL,
+ DNOMBRE  VARCHAR2(14), 
+ LOC      VARCHAR2(14) ) ;
+
+INSERT INTO DEPART VALUES (10,'CONTABILIDAD','SEVILLA');
+INSERT INTO DEPART VALUES (20,'INVESTIGACION','MADRID');
+INSERT INTO DEPART VALUES (30,'VENTAS','BARCELONA');
+INSERT INTO DEPART VALUES (40,'PRODUCCION','BILBAO');
+COMMIT;
+
+
+REM ******** TABLA EMPLE: *************
+
+DROP TABLE EMPLE cascade constraints; 
+
+CREATE TABLE EMPLE (
+ EMP_NO    NUMBER(4) NOT NULL,
+ APELLIDO  VARCHAR2(10)  ,
+ OFICIO    VARCHAR2(10)  ,
+ DIR       NUMBER(4) ,
+ FECHA_ALT DATE      ,
+ SALARIO   NUMBER(7),
+ COMISION  NUMBER(7),
+ DEPT_NO   NUMBER(2) NOT NULL) ;
+
+INSERT INTO EMPLE VALUES (7369,'SANCHEZ','EMPLEADO',7902,'17/DEC/1990', 
+                        1040,NULL,20);
+INSERT INTO EMPLE VALUES (7499,'ARROYO','VENDEDOR',7698,'20/FEB/1990',
+                        1500,390,30);
+INSERT INTO EMPLE VALUES (7521,'SALA','VENDEDOR',7698,'22/FEB/1991',
+                        1625,650,30);
+INSERT INTO EMPLE VALUES (7566,'JIMENEZ','DIRECTOR',7839,'02/APR/1991',
+                        2900,NULL,20);
+INSERT INTO EMPLE VALUES (7654,'MARTIN','VENDEDOR',7698,'29/SET/1991',
+                        1600,1020,30);
+INSERT INTO EMPLE VALUES (7698,'NEGRO','DIRECTOR',7839,'01/MAY/1991',
+                        3005,NULL,30);
+INSERT INTO EMPLE VALUES (7782,'CEREZO','DIRECTOR',7839,'09/JUN/1991',
+                        2885,NULL,10);
+INSERT INTO EMPLE VALUES (7788,'GIL','ANALISTA',7566,'09/NOV/1991',
+                        3000,NULL,20);
+INSERT INTO EMPLE VALUES (7839,'REY','PRESIDENTE',NULL,'17/NOV/1991',
+                        4100,NULL,10);
+INSERT INTO EMPLE VALUES (7844,'TOVAR','VENDEDOR',7698,'08/SEP/1991',
+                        1350,0,30);
+INSERT INTO EMPLE VALUES (7876,'ALONSO','EMPLEADO',7788,'23/SEP/1991',
+                        1430,NULL,20);
+INSERT INTO EMPLE VALUES (7900,'JIMENO','EMPLEADO',7698,'03/DEC/1991',
+                        1335,NULL,30);
+INSERT INTO EMPLE VALUES (7902,'FERNANDEZ','ANALISTA',7566,'03/DEC/1991',
+                        3000,NULL,20);
+INSERT INTO EMPLE VALUES (7934,'MUNOZ','EMPLEADO',7782,'23/JAN/1992',
+                        1690,NULL,10);
+
+COMMIT;

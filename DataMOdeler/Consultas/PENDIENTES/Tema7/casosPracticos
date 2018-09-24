@@ -1,0 +1,204 @@
+Casos prácticos --> 1(pag.131), 2(pag.134), 3(pag.136), 4(pag.138), 12(pag.149)
+Actividades propuestas --> 7(pag.132), 1(pag.132), 2(pag.137), 3(pag.140), 6(pag.146)
+Actividades complementarias --> 1(pag.162), 3(pag.162)
+
+links:
+https://github.com/ShadyX7/EjerciciosBBDD/blob/master/Ejercicios/MasEjercicios2Evaluacion.txt
+http://cosasinformaticas.foroactivo.com/t16-ejercicios-de-clase
+-------------
+CP 1(pag.131)
+-------------
+CREATE TABLE ALUMNOS07
+(
+    NUMERO_MATRICULA    NUMBER(6)       NOT NULL,
+    NOMBRE              VARCHAR(15)     NOT NULL,
+    FECHA_NACIMINETO    DATE,
+    DIRECCION           VARCHAR(30),
+    LOCALIDAD           VARCHAR(15)
+);
+
+-------------
+CP 2(pag.134)
+-------------
+CREATE TABLE PROVI
+(
+    CODIGO      NUMBER(2)       PRIMARY KEY,
+    NOMBRE      VARCHAR(25)
+);
+
+
+-------------
+CP 3(pag.136)
+-------------
+CREATE TABLE BLOQUESPISOS
+(
+    CALLE               VARCHAR(30)     NOT NULL,
+    NUMERO              NUMBER(3)       NOT NULL,
+    PISO                NUMBER(2)       NOT NULL,
+    PUERTA              CHAR(1)         NOT NULL,
+    CODIGO_POSTAL       NUMBER(5),
+    METROS              NUMBER(5),
+    COMENTARIOS         VARCHAR(60),
+    COD_ZONA            NUMBER(2),
+    DNI                 VARCHAR(10),
+    CONSTRAINT PK_VIV PRIMARY KEY (CALLE, NUMERO, PISO, PUERTA)
+);
+
+
+-------------
+CP 4(pag.138)
+-------------
+CREATE TABLE PROVINCIAS 
+( 
+    CODPRIVINCIA        NUMBER(2)      PRIMARY KEY, 
+    NOM_PROVINCIA       VARCHAR(15)        
+);
+
+CREATE TABLE PERSONAS 
+( 
+    DNI         NUMBER(8)           PRIMARY KEY, 
+    NOMBRE      VARCHAR(15), 
+    DIRECCION   VARCHAR(25), 
+    POBLACION   VARCHAR(20), 
+    CODPROVIN   NUMBER(2) NOT NULL REFERENCES PROVINCIAS 
+);
+
+
+-------------
+CP 12(pag.149)
+-------------
+//Creamos la tabla EJEMPLO_AS a partir de los datos de la table EJEMPLO:
+
+CREATE TABLE EJEMPLO_AS
+AS SELECT * FROM EJEMPLO;
+
+//Asignamos un nombre a las columnas de la tabla EJEMPLO_AS2(COL1,COL2,COL3):
+
+CREATE TABLE EJEMPLO_AS2 (COL1, COL2, COL3)
+AS SELECT * FROM EJEMPLO;
+
+//Se crea la tabla EMPLEYDEPART a partir de las tablas EMPLE y DEPART:
+
+CREATE TABLE EMPLEYDEPART
+AS SELECT APELLIDO, DNOMBRE
+FROM EMPLE, DEPART WHERE EMPLE.DEPT_NO = DEPART.DEPT_NO;
+
+-------------
+AP 7(pag.132)
+-------------
+SELECT TABLE_NAME FROM USER_TABLES;
+SELECT TABLE_NAME FROM USER_OBJECTS;
+SELECT TABLE_NAME FROM USER_CATALOG;
+-------------
+AP 1(pag.132)
+-------------
+SELECT TABLE_NAME FROM USER_TABLES;
+
+SELECT OBJECT_NAME FROM USER_OBJECTS;
+
+SELECT TABLE_NAME FROM USER_CATALOG;
+
+
+-------------
+AP 2(pag.137)
+-------------
+La tabla BLOQUESPISOS ya está creada... hacer la prueba directamente desde SQL LIVE.
+
+-------------
+AP 3(pag.140)
+-------------
+INSERT INTO FABRICANTES VALUES(25,'GOVEKO', 'CALLE MURILLO','RIOJA',48);
+
+
+Error:
+
+ORA-00942: table or view does not exist 
+
+-------------
+AP 6(pag.146)
+-------------
+CREATE TABLE FABRICANTES(
+COD_FABRICANTE NUMBER(3) CONSTRAINT PK_FA PRIMARY KEY,
+NOMBRE VARCHAR2(15)
+CONSTRAINT CK_NO CHECK(NOMBRE=UPPER(NOMBRE)),
+PAIS VARCHAR2(15)
+CONSTRAINT CK_PA CHECK(PAIS=UPPER(PAIS))
+);
+
+CREATE TABLE ARTICULOS(
+ARTICULO VARCHAR2(20)NOT NULL,
+COD_FABRICANTE NUMBER(3) NOT NULL,
+PESO NUMBER(3) NOT NULL
+CONSTRAINT CK1_AR CHECK (PESO>0),
+CATEGORIA VARCHAR2(10) NOT NULL,
+PRECIO_VENTA NUMBER (4)
+CONSTRAINT CK2_AR CHECK (PRECIO_VENTA>0),
+PRECIO_COSTO NUMBER (4)
+CONSTRAINT CK3_AR CHECK (PRECIO_COSTO>0),
+EXISTENCIAS NUMBER (5),
+CONSTRAINT PK_ART PRIMARY KEY
+(ARTICULO, COD_FABRICANTE, PESO, CATEGORIA),
+CONSTRAINT FK_ARFA FOREIGN KEY (COD_FABRICANTE) REFERENCES FABRICANTES,
+CONSTRAINT CK_CAT CHECK(CATEGORIA IN('Primera','Segunda', 'Tercera'))
+); 
+
+-------------
+AC 1(pag.162)
+-------------
+CREATE TABLE FABRICANTES(
+COD_FABRICANTE NUMBER(3) PRIMARY KEY,
+NOMBRE VARCHAR2(15),
+PAIS VARCHAR2(15));
+INSERT INTO FABRICANTES VALUES(10,'CALVO', 'ESPAÑA');
+INSERT INTO FABRICANTES VALUES(15,'LU', 'BELGICA');
+INSERT INTO FABRICANTES VALUES(20,'BARILLA', 'ITALIA');
+INSERT INTO FABRICANTES VALUES(25,'GALLO', 'ESPAÑA');
+
+create table PEDIDOS(
+NIF VARCHAR2(10),
+ARTICULO VARCHAR2(20),
+COD_FABRICANTE NUMBER(3),
+PESO NUMBER(3),
+CATEGORIA VARCHAR2(10),
+FECHA_PEDIDO DATE,
+UNIDADES_PEDIDAS NUMBER(4)
+);
+
+alter table pedidos
+add constraint PK_PEDIDO primary key (NIF, ARTICULO, COD_FABRICANTE, PESO, CATEGORIA, FECHA_PEDIDO);
+
+alter table pedidos
+add constraint FK_PEDIDO foreign key (COD_FABRICANTE)references FABRICANTES (COD_FABRICANTE) on delete cascade;
+
+alter table pedidos
+add constraint FK_PEDIDO foreign key (COD_FABRICANTE)references FABRICANTES (COD_FABRICANTE) on delete cascade;
+
+alter table pedidos
+add constraint CATEGORIA CHECK (CATEGORIA IN('PRIMERA','SEGUNDA','TERCERA'));
+
+create table VENTAS(
+NIF VARCHAR2(10),
+ARTICULO VARCHAR2(20),
+COD_FABRICANTE NUMBER(3),
+PESO NUMBER(3),
+CATEGORIA VARCHAR2(10),
+FECHA_VENTA DATE,
+UNIDADES_VENTAS NUMBER(4)
+);
+
+alter table VENTAS
+add constraint PK_VENTAS primary key (NIF, ARTICULO, COD_FABRICANTE, PESO, CATEGORIA, FECHA_VENTA);
+
+alter table VENTAS
+add constraint FK_VENTAS foreign key (COD_FABRICANTE)references FABRICANTES (COD_FABRICANTE) on delete cascade;
+
+alter table VENTAS
+add constraint UNIDADES_VENTAS CHECK (UNIDADES_VENTAS>0);
+
+alter table VENTAS
+add constraint CATEGORIA1 CHECK (CATEGORIA IN('PRIMERA','SEGUNDA','TERCERA'));
+
+
+
+
+

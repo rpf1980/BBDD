@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="484662D7-CB72-2C2A-95EE-8E6CE8CFB8BA" name="E_1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:31:44 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_1" id="A6E09234-9110-44B6-A271-262F3CCDC87B">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:32:00 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_11" id="88B2796D-BD85-B6FE-2646-DFA3C0700553">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:51:14 UTC</createdTime>
+<generatorID>85AFE2DE-CEC2-B217-52B6-0F82D84CDCD2</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A6E09234-9110-44B6-A271-262F3CCDC87B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B35747-8C1F-0390-EBCC-249E3629C024" name="E_1 PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:32:22 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6E09234-9110-44B6-A271-262F3CCDC87B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

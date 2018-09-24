@@ -1,0 +1,63 @@
+﻿=================
+Supuesto Práctico
+=================
+Diseñar un esquema de modelo Relacional en el que se vean reflejados las
+entidades, atributos mínimos, relaciones y las claves primarias, alternativas
+y ajenas que considere oportunas, de acuerdo al enunciado que se
+especifica a continuación. Previo al modelo Relacional, realizar 
+el modelo Entidad Relación del que se derivará el modelo Relacional.
+Realizar el modelo físico con "Oracle Live SQL", añadir datos y realizar al menos
+10 consultas variadas a la BBDD.
+
+#Representar la estructura de un centro de enseñanza, que posee delegaciones
+en varias provincias de España.
+
+#Será necesario reflejar para el centro de enseñanza los siguientes atributos:
+o Codigo de 1 a 99.
+o Nombre.
+o Dirección.
+o Provincia.
+o Teléfono.
+o Código postal.
+
+#Para las provincias habrá que reflejar (Buscar en la Web la estructura y los "insert"):
+o Código provincia de 1 a 52
+o Nombre.
+
+#El código del centro es unívoco y distinto para todos los centros estatales.
+
+#En cada centro se imparten una serie de cursos con los siguientes atributos:
+o Código de curso de 1 a 99999.
+o Nombre de curso.
+o Código del centro donde se imparte.
+
+#Cada curso es impartido por una serie de profesores cualificados con los
+siguientes atributos:
+o Dni.
+o Nombre.
+o Apellidos.
+o Dirección.
+o Teléfono.
+o Código postal.
+o Código de curso.
+o Código de centro.
+o Nº de la Seguridad Social.
+
+#El Código del curso puede repetirse en centros distintos, por lo que no es
+unívoco. Un curso de un centro, sólo puede ser impartido por un profesor.
+
+#Por último, a estos cursos, asisten una serie de alumnos con los siguientes
+atributos:
+o Dni.
+o Nombre.
+o Apellidos.
+o Dirección.
+o Teléfono.
+o Código postal.
+o Codigo curso.
+o Código centro.
+o Fecha de comienzo del curso.
+o Fecha de fin del curso.
+
+#Un alumno en un mismo centro, puede asistir a varios curso, pero al mismo
+curso sólo podrá asistir en fechas de comienzo distintas.

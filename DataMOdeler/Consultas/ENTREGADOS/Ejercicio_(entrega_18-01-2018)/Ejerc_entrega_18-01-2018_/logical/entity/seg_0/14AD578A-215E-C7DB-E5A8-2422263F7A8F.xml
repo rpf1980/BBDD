@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14AD578A-215E-C7DB-E5A8-2422263F7A8F" name="E_6">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:35:55 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8C6040F1-7400-2EEF-C741-2A6476323E0E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_6" id="190A4F2B-95AA-CBCA-DF64-C7ED54336961">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:36:05 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E2087D6-96FF-8644-4C26-D1483DB8E137" name="E_6 PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 14:36:16 UTC</createdTime>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<engineerTo>
+<item key="F9A32373-9292-8C6F-A66B-EB7E8095FE98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>190A4F2B-95AA-CBCA-DF64-C7ED54336961</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

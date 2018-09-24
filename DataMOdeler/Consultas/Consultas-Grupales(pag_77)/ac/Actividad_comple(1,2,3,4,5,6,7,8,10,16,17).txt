@@ -1,0 +1,48 @@
+Actividad complementaria 1, 2, 3, 4, 5, 6, 7, 8, 10, 16, 17 (empiezan en la pag. 102)
+
+[1] Obtén el sueldo medio, el número de comisiones no nulas, el máximo sueldo y el 
+mínimo sueldo de los empleados del departamento 30.
+
+SQL> SELECT AVG(SALARIO) "MEDIA DE SALARIO",  COUNT(COMISION) "NUMERO DE COMISIONES", MAX(SALARIO), MIN(SALARIO) FROM EMPLE
+		WHERE Dept_No = 30;
+-----------------------------------------------------
+
+[2] Visualiza los temas con mayor nº de ejemplares de la tabla LIBRERIA y que tengan, al menos, una 'E'
+(puedes ser un tema o varios)
+
+SQL> SELECT TEMA FROM LIBRERIA WHERE LIBRERIA.TEMA LIKE '%E%' AND EJEMPLARES=(SELECT MAX(EJEMPLARES) FROM LIBRERIA);
+--------------------------------------
+
+[3]
+SQL> select rpad(rpad(rtrim(ltrim(titulo, '"'), '."'),
+length(rtrim(ltrim(titulo, '"'), '."'))+mod(length(rtrim(ltrim(titulo, '"'), '."')),2),
+'^'),39,
+'_^') "Titulos"
+from mistextos
+----------
+
+[4]
+SQL> SELECT LOWER(LTRIM(RTRIM(TITULO,'."'),'."')) FROM MISTEXTOS;
+---------------------------------
+
+[5]
+SQL> SELECT AUTOR,SUBSTR(AUTOR,0,INSTR(AUTOR,',',1)-1) "APELLIDO" FROM LIBROS;
+---------------------------------
+
+[6]
+
+[7]
+
+[8]
+
+[10]
+SQL> SELECT TEMA ,SUBSTR(TEMA,INSTR(TEMA,'')-1), 
+	   INSTR(TEMA,'')-1 FROM LIBRERIA ORDER BY TEMA;
+--------------------------------------------------------------
+[16]
+
+[17]
+
+
+
+

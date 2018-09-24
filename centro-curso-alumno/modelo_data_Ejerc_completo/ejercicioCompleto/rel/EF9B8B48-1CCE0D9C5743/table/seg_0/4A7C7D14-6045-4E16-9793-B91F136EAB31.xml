@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A7C7D14-6045-4E16-9793-B91F136EAB31" name="provincia">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>BACA2651-AE9E-BC0B-B805-C01D01D4C4D4</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_provincia" id="C89BE631-8834-AB93-BD40-F8F6534AC56F">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>3769AF5B-F564-5F25-D30C-218F193A7A71</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_provincia" id="39C3C3F7-597B-C7B3-09E7-C1C12E8D3F49">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>C30EB7A3-0402-B795-115B-B7BBD708FC8B</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_id_centro" id="BC726D10-DCDA-B891-9C2B-09F5A3AAEE08">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>3459616C-1805-F9EF-1A39-1ACB1B69E69A</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D165A3D-D463-ABA8-031B-CD08B427CC2B" referredColumn="BE7FD510-8601-A3A3-674B-D559D5C0ADAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E163EE8-D435-4E90-B1FF-2EBA3E2F5A69" name="provincia_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>37CE7F57-8853-49DE-3F2E-AA142E03BD21</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89BE631-8834-AB93-BD40-F8F6534AC56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E65CFD12-973F-3467-038E-11D5DC8FB0CE" name="provincia_Centro_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>3BEF8AA0-70F1-4473-EFDC-A544F51394D2</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC726D10-DCDA-B891-9C2B-09F5A3AAEE08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

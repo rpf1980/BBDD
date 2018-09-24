@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B10C2781-ED34-3911-4879-030192547DD0" name="E_2">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>796E36C3-29CD-A1CC-7D0A-CDD18F080A9D</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ide_2" id="2C010005-1255-AAD7-236E-8DE8E222124A">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>5205895A-C41B-D903-5F78-25CEE3679A49</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b1" id="C7BB8544-9A6B-92B5-ACE1-0D858A98BF3F">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>A6D16A4E-7EB7-7FF4-66E3-4F48EFFC0742</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45AB9ABF-4A3C-F2A9-2402-0F8BD9CFADEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b2" id="8A7A69B9-6218-9C4C-6BB0-A280DCB7FB27">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>140DDF7D-6FE7-EC0B-A907-8E7A7D6C46CC</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0EEA6561-C9ED-0E48-9DAA-FD43D9B135C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5474E20E-20A5-1F7E-E8C0-9936C76A8924" name="E_2_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>40F38287-CE2A-0DCA-5E6F-3E6B130548E8</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C010005-1255-AAD7-236E-8DE8E222124A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

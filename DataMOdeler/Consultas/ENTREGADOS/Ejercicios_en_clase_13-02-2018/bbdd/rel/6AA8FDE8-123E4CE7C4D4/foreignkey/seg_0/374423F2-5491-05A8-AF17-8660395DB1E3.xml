@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="374423F2-5491-05A8-AF17-8660395DB1E3" containerWithKeyObject="7572902C-59F4-194E-AB7B-82E667A8290C" localFKIndex="85017114-C454-4F45-8639-23CC6F3CC172" name="TABLA_REPVENTAS_TABLA_OFICINAS_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>B33ADD50-0856-39CC-6786-DD2EAC76F79B</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<referredTableLongName>TABLA_OFICINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D107785E-328E-AE53-2943-E36AF29B7653</referredTableID>
+<keyObject>947870B4-FE13-973B-00B9-5B301FDF5180</keyObject>
+<referredKeyID>947870B4-FE13-973B-00B9-5B301FDF5180</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oficina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

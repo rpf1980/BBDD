@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BB3AE82-0417-7F53-593A-FAC775B4E4C3" name="R1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E1_id1" id="33F8A093-19AA-F446-D7B9-BB6E4D004879">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B5325C6-CC1B-0253-CC9E-2F0CC09CF0B7" referredColumn="F866C507-60C9-59F5-6BCD-29E2C87D65B7"/>
+</associations>
+</Column>
+<Column name="E2_id2" id="75F813BF-95A9-1B5C-FF8B-0D6195C68379">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B92A21B2-429D-26AD-5F2B-A148F818F6BE" referredColumn="253DBC9D-FD31-6B3D-95E7-D8F6B88FEAB2"/>
+</associations>
+</Column>
+<Column name="a44" id="C4C7F7B8-1DB7-D34A-E848-64AC542C2230">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>0E96F526-372B-2666-CD92-13A60AEBAA25</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FD84770-6E26-3B6F-BF89-BA92B8103DDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="438F5EC3-F9D3-C846-AEC6-870A476A9703" name="R1_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33F8A093-19AA-F446-D7B9-BB6E4D004879"/>
+<colUsage columnID="75F813BF-95A9-1B5C-FF8B-0D6195C68379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BA4106A-4BE8-0BEC-48D7-D265EA0A4CAA" name="R1_E1_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>E78A5D19-CB16-DA1C-9B51-929FFC39F812</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33F8A093-19AA-F446-D7B9-BB6E4D004879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DA8C321-174B-6C03-E8FE-26EE41AD6DAB" name="R1_E2_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>E78A5D19-CB16-DA1C-9B51-929FFC39F812</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75F813BF-95A9-1B5C-FF8B-0D6195C68379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

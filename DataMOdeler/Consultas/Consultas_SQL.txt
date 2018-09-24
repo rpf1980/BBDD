@@ -1,0 +1,41 @@
+
+# Consultamos los nombres de alumnos y sus teléfonos de la tabla alumno:
+SQL> select nombre_alumno, telefono_alumno from alumno;
+
+# Mostramos la tabla curso:
+SQL> select * from curso;
+
+# Mostrar todos los campos cp_profesor mayores o iguales de 10000:
+SQL> select profesor, cp_profesor	
+	 from profesor
+	 where cp_profesor >= 10000;
+	 
+# Muestra los codigos de provincia existentes entre el 14 y el 50:
+SQL> select provincia, cod_provincia
+	 from provincia
+	 where cod_provincia between 14 and 50;
+	 
+# Mostrar provincias con codigo 34 y 21:
+SQL> select provincia, cod_provincia
+	 from provincia
+	 where cod_provincia in (34,21);
+	 
+# Mostrar todos los codigos de provinicias menos el 34 y 21:
+SQL> select provincia, cod_provincia
+	 from provincia
+	 where cod_provincia not in (34,21);
+	 
+# Muestra los profesores cuyos nombres empiezen por M:
+SQL> select profesor, nombre_profesor
+	 from profesor
+	 where nombre_profesor like 'M%';
+	 
+#  Muestra los centros cuyos nombres acaben en A:
+SQL> select centro, nombre_centro
+	 from centro
+	 where nombre_centro like '%A';
+
+# Pedir descripción de la tabla provincia:
+SQL> desc provincia
+
+# 

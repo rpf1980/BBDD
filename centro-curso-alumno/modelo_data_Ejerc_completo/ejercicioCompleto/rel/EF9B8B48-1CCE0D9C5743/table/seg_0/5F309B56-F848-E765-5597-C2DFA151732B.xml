@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F309B56-F848-E765-5597-C2DFA151732B" name="R_curso_alumno">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_id_curso" id="D0A11409-EC29-DB41-F628-A27CC3B0629C">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE22A087-5706-5B7D-C477-51A9D5C42BE5" referredColumn="4CB68882-92CA-31F5-9E2D-64F0223AE916"/>
+</associations>
+</Column>
+<Column name="Alumno_id_alumno" id="C6ED6476-9D1C-8FD0-7734-59538553083D">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DCAA7328-3A5B-FA13-3D12-BFAC0B51D331</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="455C8803-D35E-4342-9AC6-B8969C030391" referredColumn="B7B7EFE9-63CA-E4E4-CFAE-5EB821E2916E"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="95D9D95B-D844-40F9-EB42-38F9E937C56A">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>36B82173-641A-176E-1CF6-43219F8337F1</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_final" id="D8ADAFEE-2EC8-CC49-3CCB-27EBEC8806A0">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>DAF7F2AE-44BA-8B4B-A676-A78E17B25F4A</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01CF69A7-702A-55E0-AA5B-1CAFF2C2AFB5" name="R_curso_alumno_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A11409-EC29-DB41-F628-A27CC3B0629C"/>
+<colUsage columnID="C6ED6476-9D1C-8FD0-7734-59538553083D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEB67EAC-86DA-C1DE-2737-F30736EA7CF6" name="R_curso_alumno_Curso_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>5B305724-5217-DC3E-A374-5CD237A1905F</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A11409-EC29-DB41-F628-A27CC3B0629C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0888A54-1D24-6361-11CB-D73DF0EB8F77" name="R_curso_alumno_Alumno_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-03-13 15:27:08 UTC</createdTime>
+<generatorID>5B305724-5217-DC3E-A374-5CD237A1905F</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6ED6476-9D1C-8FD0-7734-59538553083D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

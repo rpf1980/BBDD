@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E346FAA-2EAD-7504-4EF1-FAB64206E8AA" name="E3">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>51E7D8DE-D9B1-EF6D-B2F3-E79F7AC63402</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E2_E1_id1" id="3D904483-42E5-C47B-7AE7-D3D5EB8ADBD7">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>CDADAAC5-4187-1482-C209-B0743341BCA7</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>63BE8707-BBA6-7FAF-79B8-049A0AC75383</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6279DD2C-5385-D8AC-CEE9-9C37B1118B38" referredColumn="D28CC5C4-0497-28CD-B227-524C4D246DFB"/>
+</associations>
+</Column>
+<Column name="E2_id2" id="B6426197-9FB0-1CBE-2BB1-8156D3F8A444">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>656A026F-6205-6E4A-60F5-26DC1F0150E2</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>63BE8707-BBA6-7FAF-79B8-049A0AC75383</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6279DD2C-5385-D8AC-CEE9-9C37B1118B38" referredColumn="0324C46E-FFDC-60F6-61D4-D943D61CE476"/>
+</associations>
+</Column>
+<Column name="id3" id="A698A3A0-50CB-B203-9306-C507CDDDE190">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>C128B2A4-9905-D3BC-DE0C-A41F06431ADC</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>63BE8707-BBA6-7FAF-79B8-049A0AC75383</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a8" id="87FE29DD-EB1B-7A2B-497E-EA073DB5716F">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>98291923-AD7D-5FE3-0ACD-3526BCE60EFB</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>87DCF946-DE9F-7B5F-D7D6-1767AF1932B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="a9" id="960CDD72-41AE-B172-96D8-F2700925E308">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>BE16696F-1E5A-1BB0-0BF2-17B123A0F78D</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0EDE9C6B-D93F-6B63-BA21-3092AA380DCE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67765593-1E7F-CCBD-7DB4-31FFC4D2F50E" name="E3_PK">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>8CCD8B5C-49B5-8803-9F6E-342D96D9958B</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A698A3A0-50CB-B203-9306-C507CDDDE190"/>
+<colUsage columnID="B6426197-9FB0-1CBE-2BB1-8156D3F8A444"/>
+<colUsage columnID="3D904483-42E5-C47B-7AE7-D3D5EB8ADBD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F104A5E-1D67-0082-5C41-BFDD8C1750FE" name="E3_E2_FK">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>638F9CAA-B803-149C-09B2-77AD146535BC</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6426197-9FB0-1CBE-2BB1-8156D3F8A444"/>
+<colUsage columnID="3D904483-42E5-C47B-7AE7-D3D5EB8ADBD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

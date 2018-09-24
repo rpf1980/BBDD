@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92E6AC0D-F1CF-89B8-BEB2-49D7B4DD15AA" name="TABLA_OFICINAS">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:46:55 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="oficina" id="9C54B245-9C0C-5A3F-0F35-48C6059ED252">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:47:18 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1E258A4C-381D-FCEF-A5AB-7E63AE421A32</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="1E60E682-5CDC-BCD3-FAB8-EF8E453FF770">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:47:18 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>012EEEAA-97E5-C540-EC9A-21F512B42AF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_region" id="80132FBD-50D5-B19B-B755-FD112D60AE9F">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:47:18 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F5FCCE5-FF04-145F-2389-67DA610BA48C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_ventas" id="51D5FC23-F5C3-FA97-F51A-70ED6D9A0588">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:47:19 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="director" id="EBFF2CB5-9B5E-3F0D-F30F-F58FB37AF362">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:47:19 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E7453ABB-5FD3-5E6A-C28E-4BA1D6B5C5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_region1" id="C086BB82-4475-C71D-F62D-1409CEA5BAC4">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:54:55 UTC</createdTime>
+<generatorID>DBC10210-7757-E53A-6EAD-85FA9B067A10</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<referedAttribute>27BE68F1-006A-97FA-FB17-C599F147BBD2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F5FCCE5-FF04-145F-2389-67DA610BA48C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="103C654F-E4D3-DED6-A29A-187FB134E638" name="TABLA_OFICINAS PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:48:45 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<engineerTo>
+<item key="6AA8FDE8-ADD0-81F7-5D58-123E4CE7C4D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C54B245-9C0C-5A3F-0F35-48C6059ED252</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

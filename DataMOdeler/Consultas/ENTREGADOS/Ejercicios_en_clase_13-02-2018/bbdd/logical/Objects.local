@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="92E6AC0D-F1CF-89B8-BEB2-49D7B4DD15AA" name="TABLA_OFICINAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="918C0007-82D4-C795-AA9B-B699A4DDBB62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1ECB6F62-0FCD-C5DE-9CB6-17BE8D281A67" name="TABLA_REGIONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="918C0007-82D4-C795-AA9B-B699A4DDBB62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6C304A0E-B8EC-8562-6E5A-E06506083FC5" name="TABLA_REPVENTAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="918C0007-82D4-C795-AA9B-B699A4DDBB62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="DBC10210-7757-E53A-6EAD-85FA9B067A10" name="pertenece" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="918C0007-82D4-C795-AA9B-B699A4DDBB62" propertySourceId="1ECB6F62-0FCD-C5DE-9CB6-17BE8D281A67" propertyTargetId="92E6AC0D-F1CF-89B8-BEB2-49D7B4DD15AA"/>
+   <object objectType="Relation" objectID="B33ADD50-0856-39CC-6786-DD2EAC76F79B" name="realiza_ventas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="918C0007-82D4-C795-AA9B-B699A4DDBB62" propertySourceId="92E6AC0D-F1CF-89B8-BEB2-49D7B4DD15AA" propertyTargetId="6C304A0E-B8EC-8562-6E5A-E06506083FC5"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="260DBAE6-5AF0-35BF-2A02-461AE68C7635">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 17:02:42 UTC</createdTime>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

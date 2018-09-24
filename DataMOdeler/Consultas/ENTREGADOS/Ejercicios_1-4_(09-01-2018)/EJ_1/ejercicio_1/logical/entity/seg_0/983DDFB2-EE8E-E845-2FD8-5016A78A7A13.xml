@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="983DDFB2-EE8E-E845-2FD8-5016A78A7A13" name="E_1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:22:16 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_1" id="10A872C2-7BDA-9AFC-689E-08EC4BEAC509">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:22:53 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a1" id="99E25A5B-92C8-9BD3-AA72-BCA8F8E9C215">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:22:53 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45AB9ABF-4A3C-F2A9-2402-0F8BD9CFADEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a2" id="4056E305-94D4-9B28-08AD-31D2EA30609A">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:22:53 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5AE2F7AF-D341-6CAD-F524-977E85696603</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a3" id="D3AD5D3A-6A93-6C0A-D10C-6E006A280B0A">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:22:54 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CEB4CE03-A0FA-B193-E760-B305E0BCC668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55F5DC33-6FB9-F83D-B929-6E2DED7F28A6" name="E_1.1 PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:23:15 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10A872C2-7BDA-9AFC-689E-08EC4BEAC509</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

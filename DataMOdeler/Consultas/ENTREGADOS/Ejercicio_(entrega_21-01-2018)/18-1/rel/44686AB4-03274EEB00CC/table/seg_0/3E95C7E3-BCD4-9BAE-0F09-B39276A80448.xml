@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E95C7E3-BCD4-9BAE-0F09-B39276A80448" name="E2">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>C234CD7F-2B7A-C227-888C-2D98B6C13CDF</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E1_id1" id="D7BA194D-49DA-06A7-C2FC-67CFA12A457A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>ED764EFC-54A3-1540-1D44-586F61AF3F44</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F1684B1-9701-01B1-6E56-FD6A46E2E26E" referredColumn="252B3B74-B02E-B6C2-1E91-9852124A9D56"/>
+</associations>
+</Column>
+<Column name="id2" id="C5AF6E0E-9C78-0134-D9A8-4A9E1B507906">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>8DEACFB1-16F8-2E80-C078-6382915A5852</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a8" id="6CEC1399-D3EE-2DB2-8DF6-2EFCBC45A2A9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>415C38E3-D276-BFA0-0D8F-BA8753E00830</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a21" id="C57D8A65-B80E-44AD-1036-CF37FEA57A83">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>26A81755-C02D-63E3-D41E-D38B62C51049</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FD84770-6E26-3B6F-BF89-BA92B8103DDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9F1684B1-9701-01B1-6E56-FD6A46E2E26E</dependOnForeignKeyID>
+</Column>
+<Column name="a23" id="15E38B20-4B50-A6DC-69BB-26E8184D335A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>AD9C5FE4-CEBC-2DDC-B35E-A78F37F23E7C</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9F1684B1-9701-01B1-6E56-FD6A46E2E26E</dependOnForeignKeyID>
+</Column>
+<Column name="a24" id="C61A8B93-229E-2E56-9775-51CF059505F4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>8A179386-0F0C-BB06-305C-39CFA9032368</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02DD333F-8641-B799-0F0F-6848F6A098AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9F1684B1-9701-01B1-6E56-FD6A46E2E26E</dependOnForeignKeyID>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>Número de hermanos permitidos </description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED3BD156-6CD0-125F-1996-44FABD88D00A" name="E2_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>6C9071FA-743A-4CA1-617D-B2705AE912DD</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5AF6E0E-9C78-0134-D9A8-4A9E1B507906"/>
+<colUsage columnID="D7BA194D-49DA-06A7-C2FC-67CFA12A457A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FB29F48-91BD-4D3C-E90D-5DC6F1DCEF40" name="E2_E1_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:53 UTC</createdTime>
+<generatorID>5087A240-19DC-0CFA-4778-FFCE4A0AE4F7</generatorID>
+<ownerDesignName>18-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7BA194D-49DA-06A7-C2FC-67CFA12A457A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

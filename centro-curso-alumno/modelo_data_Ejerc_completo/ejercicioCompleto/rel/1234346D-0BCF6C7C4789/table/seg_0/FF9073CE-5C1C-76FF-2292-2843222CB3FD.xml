@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF9073CE-5C1C-76FF-2292-2843222CB3FD" name="Ent_Alumno">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>F540DE9F-441C-96B9-CCF5-01DFE924057D</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alumno" id="FE56FE36-245A-37B2-3424-9CDCAD7859AE">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>5913B13C-4FBB-5BBF-9374-88D1A56218D9</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dni_alumno" id="33541E2D-185F-37D2-C798-63D8DBDDD6D8">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>FCC701C7-1643-E680-1B86-A7D7E0C2258F</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>13F218F6-04BC-3FB0-1940-BEFE4D96A43E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_alumno" id="2248813D-E3DD-169D-2833-9EB7361D3F95">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>E5C94267-5F02-F727-EF82-A79BC2C4E898</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_alumno" id="E34181EC-A63A-EEA6-4A31-4ECBAEC6A64B">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>4D9D21E2-BD16-6253-69BF-1F1559765D5A</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_alumno" id="B34D188F-CD92-D494-A1EB-A1681D9D0FB9">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>A125D60C-0383-68D8-F5A8-3DC497F8C5EC</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_alumno" id="1CF6B9A8-4825-A1C7-F5FF-A26539DE6A47">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>D46BD37A-1474-D6F6-1CA9-48A8B1837025</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0B7D1A38-C5D6-1710-99BB-C95AA19E4339</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cp_alumno" id="60DB1631-BB32-91D5-AD1C-2E1F0B1C1787">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>16FAAE7F-9E15-D6EA-DB86-6DC5DB0FD6CD</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3881681A-5F39-37F9-DE4E-CC93FBE830A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_alumno" id="D04C520E-B4CA-FCC1-5733-0847B11C0FE7">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>574DA3C5-8D32-F71A-122C-6DD849DB8A53</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5373BDDF-C096-47CE-47A7-26FAA413D2F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3918A27D-82E1-F4AF-7CF8-26B4741549CE" name="Ent_Alumno_PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>D22B6A32-2E5A-8158-B87C-4D394E1A6658</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE56FE36-245A-37B2-3424-9CDCAD7859AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

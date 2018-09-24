@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A3A61B2-2DA1-3818-7B7C-D0320D2C6B4D" name="E2">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:40 UTC</createdTime>
+<generatorID>C5C2BC68-A6AF-5F3A-19DC-FA2144D991BA</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id2" id="7C0E9EE3-ADEA-5F3D-0CF9-DBE9E4E333A1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:40 UTC</createdTime>
+<generatorID>E07BEB44-FF96-C163-75B7-85A612A03BCB</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b12" id="1E8CE634-C206-7B4D-EF41-E0480BDD2646">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:40 UTC</createdTime>
+<generatorID>9B5EC896-0418-E06C-266F-A43A019E3A80</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45AB9ABF-4A3C-F2A9-2402-0F8BD9CFADEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E1_ide1" id="BF5DD247-B14D-E85F-099C-489D4F8365FE">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:40 UTC</createdTime>
+<generatorID>FF718CEF-F2F1-8ED7-946A-1B079DCF54EC</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB591A3-4E02-B44A-C553-7B932ED30EB1" referredColumn="0CD61DE1-AE6B-3ECB-FB99-29E992D6261E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A9BEC33-9C64-EDAB-5880-BBC4C6DAEAE3" name="E2_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:40 UTC</createdTime>
+<generatorID>FF398931-BB17-6AB4-B8C7-29AFB7B0CC5A</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0E9EE3-ADEA-5F3D-0CF9-DBE9E4E333A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D5F8C4-F487-7410-7725-F4560B1BC1F2" name="E2_E1_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 09:08:41 UTC</createdTime>
+<generatorID>C753102D-B325-4FA9-4C6E-7A438A5AEEF8</generatorID>
+<ownerDesignName>ejercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF5DD247-B14D-E85F-099C-489D4F8365FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

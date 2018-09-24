@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4896E5C6-1B08-63C0-A93C-BD2C75E5D197" name="E_4">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>0517F858-A892-0419-75CB-E132C06E4B59</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_3" id="6F1E66BA-D702-ADF5-83CA-EDCA43CB4BA9">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>057076F3-7517-9057-7D9B-AC39AD5F4218</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD59785-5B70-7B65-4169-56B2E2E9D920" referredColumn="98FDC2D4-E824-F647-01FA-4B76253BDB33"/>
+</associations>
+</Column>
+<Column name="id_4" id="1B8A79AB-873C-5B99-ABD0-294BDE02E66D">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>E4C8B726-0823-4E07-3F46-5E30989DDA61</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_3_id_3" id="0D58111F-0797-40E1-49CD-B3FFFD6FE401">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>1AD1F11E-EF45-A7D9-C988-9D8081B74DE4</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DEAFC16-CE93-0A59-034D-C19C4A5F023C" referredColumn="98FDC2D4-E824-F647-01FA-4B76253BDB33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C12C988-3CAF-7E0D-3A76-B17E485F3287" name="E_4_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>DD2E0603-14EA-9FC8-F4EA-CDC6AECE5DC5</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1E66BA-D702-ADF5-83CA-EDCA43CB4BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B08B0D7-39D8-AEED-43BE-FCDE1839B765" name="E_4_PKv1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>177938DE-F916-76B9-890E-55C2A1235B25</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B8A79AB-873C-5B99-ABD0-294BDE02E66D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="524FDD91-9DB6-6DB1-3D3C-D704435B21A9" name="E_4_E_3_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>8E460BB5-0B2C-277B-A7A9-1CDAB3548805</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1E66BA-D702-ADF5-83CA-EDCA43CB4BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A46C24F8-62C6-73E7-3A86-A5AB2B7448F7" name="E_4_E_3_FKv2">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>21AD3CAD-EC9B-842F-70C0-20DA036C7348</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D58111F-0797-40E1-49CD-B3FFFD6FE401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

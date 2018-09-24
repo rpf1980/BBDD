@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R1" directorySegmentName="seg_0" id="E78A5D19-CB16-DA1C-9B51-929FFC39F812">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:02:56 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1199EE02-8422-A964-3127-D4571E76CE56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A56C9A0D-17C0-62AC-DE0A-EC0D1A108FA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="a44" id="0E96F526-372B-2666-CD92-13A60AEBAA25">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:03:05 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FD84770-6E26-3B6F-BF89-BA92B8103DDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

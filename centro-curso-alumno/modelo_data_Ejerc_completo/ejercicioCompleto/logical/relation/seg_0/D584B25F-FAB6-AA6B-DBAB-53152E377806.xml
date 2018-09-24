@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_centro_curso" directorySegmentName="seg_0" id="D584B25F-FAB6-AA6B-DBAB-53152E377806">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 19:39:52 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="429DE0BA-E0E7-48B5-1950-2017ED5CADED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B58FE6A6-12EA-3C4C-5D2D-96794CAD04F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90F9E6F2-3990-9B75-4070-A623DA26A8DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D107785E-328E-AE53-2943-E36AF29B7653" name="TABLA_OFICINAS">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:13 UTC</createdTime>
+<generatorID>92E6AC0D-F1CF-89B8-BEB2-49D7B4DD15AA</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oficina" id="B542E96E-BB99-66BE-F06D-666F34B7FAB1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>9C54B245-9C0C-5A3F-0F35-48C6059ED252</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1E258A4C-381D-FCEF-A5AB-7E63AE421A32</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="4775C6D2-13AE-226F-4921-0C68AB6D4864">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>1E60E682-5CDC-BCD3-FAB8-EF8E453FF770</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>012EEEAA-97E5-C540-EC9A-21F512B42AF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_region" id="443AB679-6806-0579-E31D-7822925C64B4">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>80132FBD-50D5-B19B-B755-FD112D60AE9F</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F5FCCE5-FF04-145F-2389-67DA610BA48C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_ventas" id="B09462C1-0E5E-0A80-636B-4FF66E96A032">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>51D5FC23-F5C3-FA97-F51A-70ED6D9A0588</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director" id="847A6BD7-B24F-B5D3-19E4-D0516CE8E710">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>EBFF2CB5-9B5E-3F0D-F30F-F58FB37AF362</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E7453ABB-5FD3-5E6A-C28E-4BA1D6B5C5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLA_REGIONES_cod_region" id="641BC64C-678F-7742-7CCD-3F7AA7D3E4BB">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>C086BB82-4475-C71D-F62D-1409CEA5BAC4</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F5FCCE5-FF04-145F-2389-67DA610BA48C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EDC15C1-2061-03C9-5CB4-2D66D7EBAC36" referredColumn="4EBD77D0-9FEB-793C-55B9-6173F184605F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="947870B4-FE13-973B-00B9-5B301FDF5180" name="TABLA_OFICINAS_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>103C654F-E4D3-DED6-A29A-187FB134E638</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B542E96E-BB99-66BE-F06D-666F34B7FAB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2043AAD2-88F1-2F2E-294B-831EA80B3A13" name="TABLA_OFICINAS_TABLA_REGIONES_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>DBC10210-7757-E53A-6EAD-85FA9B067A10</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="641BC64C-678F-7742-7CCD-3F7AA7D3E4BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

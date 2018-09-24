@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B58FE6A6-12EA-3C4C-5D2D-96794CAD04F9" name="Centro">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:22:45 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_centro" id="88F51383-C06B-806E-961F-654509D06F45">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:23:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_centro" id="2A6E6EC5-05ED-B147-9EFA-F37B9A04366F">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:23:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_centro" id="BFC019B5-D658-2640-9F46-DB55BA72CBB2">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:23:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poblacion_centro" id="4C1107E7-3125-6593-9E73-C3A8BAD0E6C7">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:23:06 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provincia" id="A9B6AC10-F811-4F80-D154-43D611534156">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 19:30:53 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7017CD74-B887-BE2D-3BAC-3FF84D3F8A32" name="Centro PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:23:28 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88F51383-C06B-806E-961F-654509D06F45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

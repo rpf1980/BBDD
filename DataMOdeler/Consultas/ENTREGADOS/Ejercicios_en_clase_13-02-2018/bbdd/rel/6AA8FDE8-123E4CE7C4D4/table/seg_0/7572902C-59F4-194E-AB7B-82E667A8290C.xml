@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7572902C-59F4-194E-AB7B-82E667A8290C" name="TABLA_REPVENTAS">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>6C304A0E-B8EC-8562-6E5A-E06506083FC5</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_rep" id="B19E3C9C-1639-F631-A814-C454E263F7AA">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>C629D24F-F574-3CB5-6B76-95F2B1FD5982</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>99D9F5E3-E076-6A12-2909-5102CC693353</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DB442193-20FA-5B39-47C9-3AD443957226">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>77D9E007-6FD9-6A93-12C4-F79FB56811A7</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B958D338-5A7E-B347-5542-7E2D20663AB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="3280B826-D0D1-DC50-6670-DD50DC5E95AD">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>24AFC451-4FD4-BF2B-947A-2B6D0A44C29C</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oficina_rep" id="4E712683-05D2-6E07-35D3-DAF3CBE89FD7">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>BDCC02DF-D484-A575-8873-3871B78A6148</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1E258A4C-381D-FCEF-A5AB-7E63AE421A32</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director" id="3B10E861-FEDF-9A2B-BC59-431393BAA668">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>C780EC9A-A9ED-7640-EF82-5339BC7488D0</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E7453ABB-5FD3-5E6A-C28E-4BA1D6B5C5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_ventas" id="78830C15-BC1E-691D-E65A-38650A269F11">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>D3A65095-6831-752D-ABB6-EBE46AC810F6</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imp_ventas" id="EFFA3ED0-A042-59D7-8012-8D2E53149725">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>B81CB42A-9B5F-D761-1116-7C245D0A59BB</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLA_OFICINAS_oficina" id="6569E609-A216-3419-A1A4-B49D6E4354E5">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>0A7DDC25-CD20-F4E7-A1C7-0A9458A43B09</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1E258A4C-381D-FCEF-A5AB-7E63AE421A32</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="374423F2-5491-05A8-AF17-8660395DB1E3" referredColumn="B542E96E-BB99-66BE-F06D-666F34B7FAB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D21BA186-43A7-5967-6D4F-16E2D6C7A899" name="TABLA_REPVENTAS_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>37F2C9FD-6C6D-D01E-F363-820CBEE08209</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B19E3C9C-1639-F631-A814-C454E263F7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85017114-C454-4F45-8639-23CC6F3CC172" name="TABLA_REPVENTAS_TABLA_OFICINAS_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:56:14 UTC</createdTime>
+<generatorID>B33ADD50-0856-39CC-6786-DD2EAC76F79B</generatorID>
+<ownerDesignName>bbdd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6569E609-A216-3419-A1A4-B49D6E4354E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

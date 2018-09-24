@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CB15C06-2C5A-B17D-F45F-CEE92D3172E2" name="E2">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>2ED1F722-6CE2-4E5D-8758-5F3274D762FF</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E1_id1" id="D28CC5C4-0497-28CD-B227-524C4D246DFB">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>CAAAF348-D6B6-3FA9-1F3E-D6991EBDF27F</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>63BE8707-BBA6-7FAF-79B8-049A0AC75383</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95D6D54A-1794-688C-46ED-44C12AC2E964" referredColumn="271D43B6-5A6B-54D7-C3DE-43B1A14D7B7A"/>
+</associations>
+</Column>
+<Column name="id2" id="0324C46E-FFDC-60F6-61D4-D943D61CE476">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>BA805649-83F5-A803-D53C-8BC1D3B8CC37</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>63BE8707-BBA6-7FAF-79B8-049A0AC75383</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a21" id="4ECBDBAF-C196-F8AC-4699-6991D3090E9C">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>FB61C2D9-B93D-1B1A-F7E8-A58D93CC3593</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>87DCF946-DE9F-7B5F-D7D6-1767AF1932B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="a22" id="94045242-B84C-4D01-55E2-36BFF8530DDF">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>BC344BF2-F7B2-5C67-DA30-E07D439EB2E7</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>702C85C2-84A5-83A1-ACB9-58C644211330</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAB04923-2029-6BAA-1B71-E0635D009AB1" name="E2_PK">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>6EEC3162-04D5-5B44-BDC8-A6DE01620F7B</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0324C46E-FFDC-60F6-61D4-D943D61CE476"/>
+<colUsage columnID="D28CC5C4-0497-28CD-B227-524C4D246DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D48486-A4DE-BA98-3BBA-D9BA791589CB" name="E2_E1_FK">
+<createdBy>Juanma</createdBy>
+<createdTime>2018-01-23 11:53:58 UTC</createdTime>
+<generatorID>8FCD24BD-B7D1-BB79-C9E0-7CCCE60674CD</generatorID>
+<ownerDesignName>Ejercicio_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D28CC5C4-0497-28CD-B227-524C4D246DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

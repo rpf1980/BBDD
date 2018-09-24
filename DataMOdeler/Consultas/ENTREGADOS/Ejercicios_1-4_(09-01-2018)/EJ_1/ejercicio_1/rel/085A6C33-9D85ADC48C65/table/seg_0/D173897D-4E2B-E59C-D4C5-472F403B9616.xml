@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D173897D-4E2B-E59C-D4C5-472F403B9616" name="relacion(E1_E2)">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E_2_ide_2" id="E798F840-B61B-00BE-D0BA-FC08DB719D47">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E36F37-91F2-79CE-AB7C-57A079460E61" referredColumn="2C010005-1255-AAD7-236E-8DE8E222124A"/>
+</associations>
+</Column>
+<Column name="E_1_id_1" id="D17F0C79-B72C-07E5-317B-ACD452D2C9A8">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DE7BF58-2D37-A2D5-BBCE-751F4FA46F14" referredColumn="F7E17136-E704-BCE5-ECAB-476033CD65F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49F9340F-3449-52B6-92D4-48522D15D683" name="relacion(E1_E2)_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E798F840-B61B-00BE-D0BA-FC08DB719D47"/>
+<colUsage columnID="D17F0C79-B72C-07E5-317B-ACD452D2C9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BDDADFF-44E5-1A5D-A854-40F9A37AD4E5" name="relacion(E1_E2)_E_2_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>153757C0-D0BD-7E59-C586-F5AB82378846</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E798F840-B61B-00BE-D0BA-FC08DB719D47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21AB2B45-82C4-7575-EEA7-B9E2A6FF37E4" name="relacion(E1_E2)_E_1_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-15 08:51:04 UTC</createdTime>
+<generatorID>153757C0-D0BD-7E59-C586-F5AB82378846</generatorID>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D17F0C79-B72C-07E5-317B-ACD452D2C9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

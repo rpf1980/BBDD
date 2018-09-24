@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="62D5DE26-BA7E-607D-0BF3-87E3540F5558">
+<createdBy>RPF</createdBy>
+<modifiedBy>RPF</modifiedBy>
+<createdTime>2018-01-09 17:03:22 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7A3A61B2-2DA1-3818-7B7C-D0320D2C6B4D" otype="Table" vid="8BBEC553-FC38-07FF-19BB-25F1884CB5BF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="650" y="236" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8519DA36-8424-B818-75C3-C1E618D4DAB2" otype="Table" vid="65BB18F6-8856-E29C-E307-4C15A61873A7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="231" y="225" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="2EAAA31D-C573-166D-4520-250002F4B873" otype="FKIndexAssociation" vid_source="65BB18F6-8856-E29C-E307-4C15A61873A7" vid_target="65BB18F6-8856-E29C-E307-4C15A61873A7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="401" y="280"/>
+<point x="426" y="280"/>
+<point x="426" y="360"/>
+<point x="316" y="360"/>
+<point x="316" y="335"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8FB591A3-4E02-B44A-C553-7B932ED30EB1" otype="FKIndexAssociation" vid_source="65BB18F6-8856-E29C-E307-4C15A61873A7" vid_target="8BBEC553-FC38-07FF-19BB-25F1884CB5BF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="401" y="285"/>
+<point x="650" y="285"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

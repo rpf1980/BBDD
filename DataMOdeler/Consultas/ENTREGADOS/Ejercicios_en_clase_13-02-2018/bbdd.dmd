@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bbdd" id="141C58DB-261A-499B-1166-D4971EE02C65" version="3.5">
+<createdBy>RPF</createdBy>
+<createdTime>2018-02-14 11:18:08 UTC</createdTime>
+<ownerDesignName>bbdd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>141C58DB-261A-499B-1166-D4971EE02C65</designId>
+</OSDM_Design>

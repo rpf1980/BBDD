@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CD3A344-37D6-CF99-A8F4-37AC3F924C7A" name="Alumno">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:07 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alumno" id="2605A94B-1EEB-E192-4693-0BC95C21ACCD">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:24 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DCAA7328-3A5B-FA13-3D12-BFAC0B51D331</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni_alumno" id="849F015C-54B5-B215-3BCC-4D28095F2788">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:25 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>13F218F6-04BC-3FB0-1940-BEFE4D96A43E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_alumno" id="AF8B800C-EE13-9C92-0611-02E981901543">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:25 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_alumno" id="A44B4120-A9F5-DBC2-EB9D-027B4DE6A890">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:25 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_alumno" id="C02C23FD-D4EB-1400-03CA-F7EF8D878CDE">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:25 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_alumno" id="ED4A071D-BB89-5C37-FC94-42F5B903C2C7">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:26 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0B7D1A38-C5D6-1710-99BB-C95AA19E4339</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cp_alumno" id="C637B377-64EA-4179-11DD-CA30DB5F34C6">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:26 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3881681A-5F39-37F9-DE4E-CC93FBE830A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59D4FAC0-1C6B-6519-921C-8D5B46F9EF3C" name="Alumno PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 18:20:47 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2605A94B-1EEB-E192-4693-0BC95C21ACCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

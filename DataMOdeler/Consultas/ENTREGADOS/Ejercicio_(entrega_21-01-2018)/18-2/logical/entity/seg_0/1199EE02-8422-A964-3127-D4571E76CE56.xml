@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1199EE02-8422-A964-3127-D4571E76CE56" name="E1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:00:50 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id1" id="FF2431B3-7AF0-2A16-8043-F1C3D3AC74D0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:01:34 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a1" id="18558E0E-7102-C221-F856-2E4A2F6495B3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:01:35 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FD84770-6E26-3B6F-BF89-BA92B8103DDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAA414BD-4A9B-1C85-1D4B-47E5940EE4AE" name="E1 PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 19:01:44 UTC</createdTime>
+<ownerDesignName>18-2</ownerDesignName>
+<engineerTo>
+<item key="4A6E0BC7-49FC-422C-6F5E-89DDCEDB4D0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF2431B3-7AF0-2A16-8043-F1C3D3AC74D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

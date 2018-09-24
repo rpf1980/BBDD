@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ECC9D50-43EF-6A29-39FF-B834482DC0B9" name="Curso">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>A64F7A3E-A811-2513-C38B-2C1D710AC343</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="9B722B51-ADF3-98DD-A210-1E92401E1E91">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>5ED5D3D1-9910-604C-FC69-EEC69110EFB5</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_centro" id="CD3F1CCA-1041-24C8-F296-1FB247E3BD2D">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>A82BAF62-90A8-560D-0C9C-B2C7FD46FA12</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_profesor" id="3B1AB6A1-66EF-A39E-7D3D-EF5CD1D6AE28">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>A2CE5111-D76E-9AA8-6D81-C5435B232AAE</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_curso" id="AF2A34C6-6A13-F9BC-B647-88849AC8A071">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>5C37307E-B3FF-F5EF-B7FC-E0A4F2DDC047</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_curso" id="F3981EAA-9D39-9F13-401A-CAB07409D673">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>000A55C3-F6B1-CB2D-7012-EDA2F1ADEA83</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>5373BDDF-C096-47CE-47A7-26FAA413D2F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_curso1" id="4E0FCA3F-57E4-DB66-B94D-16373E72E36D">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<generatorID>3270B046-D0E7-520B-82D2-C52296F829AE</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_profesor2" id="6CFD9AEB-3FC6-DC58-1DF2-7AE80DB045A9">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<generatorID>2A816150-AA3E-9F9F-1DE5-5C9442BAB84E</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD635AEE-4620-01EB-1DF6-7D296F96445D" name="Curso_PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>56F84EF6-A685-62B8-F180-714A6A4AA5AE</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E0FCA3F-57E4-DB66-B94D-16373E72E36D"/>
+<colUsage columnID="6CFD9AEB-3FC6-DC58-1DF2-7AE80DB045A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

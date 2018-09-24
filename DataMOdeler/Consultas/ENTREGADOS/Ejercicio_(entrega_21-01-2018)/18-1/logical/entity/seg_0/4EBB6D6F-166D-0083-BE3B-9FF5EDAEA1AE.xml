@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EBB6D6F-166D-0083-BE3B-9FF5EDAEA1AE" name="E1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 18:47:56 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id1" id="1A923D46-02BD-A264-3102-C07076034411">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 18:48:11 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a2" id="5F067368-D360-46F9-3667-0487F12B2549">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 18:48:11 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a3" id="1B029A32-9397-0466-64FD-CAB04E8046F5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 18:48:12 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>807CB78D-FFE3-FFD1-83EB-BFB41511156A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D61FD651-F24E-9AC0-4150-E0BA1D66B3C3" name="E1 PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-18 18:48:18 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A923D46-02BD-A264-3102-C07076034411</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

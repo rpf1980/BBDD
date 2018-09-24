@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA32999C-531C-BB72-4083-0F3C40C99DC2" name="Ent_Centro">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>B4D59684-AFB7-02A4-3F9B-ECC799D0334A</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_centro" id="472E9524-D142-6950-7115-9E3B639174BE">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>E6D6F469-083A-3C98-2EA0-C37BDCDF8A21</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_centro" id="FFB78716-9BDD-5BB3-663A-F33C553FBE89">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>800D578C-6500-A37B-916D-D74D74CDEA3F</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_centro" id="F22BA117-1CC0-DE36-0DF3-D986C0890124">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>F6414585-8B63-77FB-D901-F84FCF3D8B37</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B93E731C-6071-3D47-13C6-3ECD827E1A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_4" id="D2EE471C-E6F0-868A-E1B3-3EA9D0B03D99">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>0D2F299A-1AB9-81B5-1C03-3EACCD3E56F1</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poblacion_centro" id="B5255E37-D782-6C90-1DBB-DB8E6215682D">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>66FD4F28-73FE-5E63-FB7A-480A7FDE2E34</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>991A6F68-8126-421F-70B2-13DD4F40ED94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F2B76CA-212D-F703-29FA-0A0213521F40" name="Ent_Centro_PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 16:02:50 UTC</createdTime>
+<generatorID>204E41E1-40DD-49C3-3071-30380A1BFBC1</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="472E9524-D142-6950-7115-9E3B639174BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

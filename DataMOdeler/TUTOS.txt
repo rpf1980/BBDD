@@ -1,0 +1,3 @@
+#IMPORTAR DOMINIOS
+ *Desde panel control >> Importar >> Dominios
+ X:\$$$$\$$$$$\datamodeler\datamodeler\types\defaultdomains.xml

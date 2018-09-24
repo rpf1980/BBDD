@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="796E36C3-29CD-A1CC-7D0A-CDD18F080A9D" name="E_2">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:24:14 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ide_2" id="5205895A-C41B-D903-5F78-25CEE3679A49">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:24:46 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b1" id="A6D16A4E-7EB7-7FF4-66E3-4F48EFFC0742">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:24:46 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45AB9ABF-4A3C-F2A9-2402-0F8BD9CFADEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b2" id="140DDF7D-6FE7-EC0B-A907-8E7A7D6C46CC">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:24:46 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0EEA6561-C9ED-0E48-9DAA-FD43D9B135C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40F38287-CE2A-0DCA-5E6F-3E6B130548E8" name="E_2 PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:25:04 UTC</createdTime>
+<ownerDesignName>ejercicio_1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5205895A-C41B-D903-5F78-25CEE3679A49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

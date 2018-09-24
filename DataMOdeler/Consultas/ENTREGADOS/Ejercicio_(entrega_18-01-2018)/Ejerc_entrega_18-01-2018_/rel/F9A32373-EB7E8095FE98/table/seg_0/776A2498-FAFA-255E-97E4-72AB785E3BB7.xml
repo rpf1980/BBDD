@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="776A2498-FAFA-255E-97E4-72AB785E3BB7" name="E_6">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>14AD578A-215E-C7DB-E5A8-2422263F7A8F</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_2" id="5DA7ECA8-57CB-1772-075B-61216B64E27C">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>D653A4EB-B73A-49C3-96FB-10836E500C29</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD4C73C3-4CC9-1FD1-EBEC-8655D1AD0E0C" referredColumn="81F3D023-BDFB-FE6C-421A-E561D3E504D0"/>
+</associations>
+</Column>
+<Column name="id_61" id="0CEE9DC1-B6BC-CD87-B172-CB07EDB8F969">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>190A4F2B-95AA-CBCA-DF64-C7ED54336961</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_6" id="4B2FFF42-1155-87FD-5C31-454B7ED25779">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>C574DE78-FE0F-2785-B56B-C14AC97524F2</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD4C73C3-4CC9-1FD1-EBEC-8655D1AD0E0C" referredColumn="85859496-65A5-5D1A-F241-8B17B375EE72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB1A9565-C73D-39D4-7AFB-42C7801DB029" name="E_6_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>9E348C6F-C5E2-9BBD-C516-861245E271B1</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA7ECA8-57CB-1772-075B-61216B64E27C"/>
+<colUsage columnID="4B2FFF42-1155-87FD-5C31-454B7ED25779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E044D1AE-2709-EB0F-F5E9-EB49F10C610D" name="E_6_PKv1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>0E2087D6-96FF-8644-4C26-D1483DB8E137</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CEE9DC1-B6BC-CD87-B172-CB07EDB8F969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="579F8BF6-6947-FE3B-2C26-668FF9DA0377" name="E_6_E_2_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-16 15:49:36 UTC</createdTime>
+<generatorID>94E39D49-CB35-DF87-21A5-3C5B612DB19E</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA7ECA8-57CB-1772-075B-61216B64E27C"/>
+<colUsage columnID="4B2FFF42-1155-87FD-5C31-454B7ED25779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

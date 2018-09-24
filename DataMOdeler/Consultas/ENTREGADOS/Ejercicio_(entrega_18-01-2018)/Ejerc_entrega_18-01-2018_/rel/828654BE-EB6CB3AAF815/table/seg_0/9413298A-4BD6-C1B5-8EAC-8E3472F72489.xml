@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9413298A-4BD6-C1B5-8EAC-8E3472F72489" name="E_2">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>8C6040F1-7400-2EEF-C741-2A6476323E0E</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_2" id="1C7B26DE-5B5F-0E34-65C8-CDACA8DB44ED">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>D653A4EB-B73A-49C3-96FB-10836E500C29</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_1_id_1" id="789F426B-F321-2B48-E0D5-B9875D54B24C">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>3FF0E86C-F8EB-AA2C-0620-074C62F9F068</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C07D39D-31F2-6A20-9A28-6210A7CFFB69" referredColumn="9EF913F9-EDF7-4ECF-CC81-7C0193182365"/>
+</associations>
+</Column>
+<Column name="E_6_id_61" id="56F74306-71A0-3760-A2E8-A76FEA8BA686">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>C574DE78-FE0F-2785-B56B-C14AC97524F2</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6FC3099-62B0-FD63-1C36-3F5842AA5FDC" referredColumn="26134969-D37E-8972-BEF1-2227813752CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6574A17C-E13E-850D-33E5-E940F76844C5" name="E_2_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>9E348C6F-C5E2-9BBD-C516-861245E271B1</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7B26DE-5B5F-0E34-65C8-CDACA8DB44ED"/>
+<colUsage columnID="56F74306-71A0-3760-A2E8-A76FEA8BA686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAD13189-CE59-0A7A-A0F2-D7CEB8FDD3CD" name="E_2_E_1_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>4A2A1F11-6EAC-DBE1-ABFE-9BAA94172FEC</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="789F426B-F321-2B48-E0D5-B9875D54B24C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFF7A80D-1459-30ED-A879-627B67C3595B" name="E_2_E_6_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>A51F0740-49EA-1D77-DA9B-E7F2888EC1C5</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F74306-71A0-3760-A2E8-A76FEA8BA686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

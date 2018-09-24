@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C790B440-6857-E643-D596-2EFAAADEEB67" name="E_1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:58:18 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_1" id="EB3BC563-C1F4-29F7-86FF-ADB9243FE593">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:58:51 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a1" id="04D239A8-D90D-0AEE-02B5-539557326B98">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:58:52 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45AB9ABF-4A3C-F2A9-2402-0F8BD9CFADEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a2" id="9E93CD4B-676D-BE27-7A7B-FD11E8A3E16B">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:58:52 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5AE2F7AF-D341-6CAD-F524-977E85696603</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="a3" id="20279588-6BC8-BE1F-A21A-0E4752C8D949">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:58:52 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0EEA6561-C9ED-0E48-9DAA-FD43D9B135C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="200B973B-9033-BD4F-9BC3-B192F0BA0574" name="E_1 PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-09 16:59:03 UTC</createdTime>
+<ownerDesignName>ejercicio_3</ownerDesignName>
+<engineerTo>
+<item key="5D3A8689-1E6A-5380-514E-13E2F36437BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB3BC563-C1F4-29F7-86FF-ADB9243FE593</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

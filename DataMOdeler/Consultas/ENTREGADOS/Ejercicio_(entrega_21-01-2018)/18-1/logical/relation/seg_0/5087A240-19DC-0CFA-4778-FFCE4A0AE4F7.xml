@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="5087A240-19DC-0CFA-4778-FFCE4A0AE4F7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:24:49 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<sourcePk>D61FD651-F24E-9AC0-4150-E0BA1D66B3C3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EBB6D6F-166D-0083-BE3B-9FF5EDAEA1AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C234CD7F-2B7A-C227-888C-2D98B6C13CDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="a21" id="26A81755-C02D-63E3-D41E-D38B62C51049">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:14 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FD84770-6E26-3B6F-BF89-BA92B8103DDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="a23" id="AD9C5FE4-CEBC-2DDC-B35E-A78F37F23E7C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:15 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="a24" id="8A179386-0F0C-BB06-305C-39CFA9032368">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:33:15 UTC</createdTime>
+<ownerDesignName>18-1</ownerDesignName>
+<engineerTo>
+<item key="44686AB4-DBF5-2766-0768-03274EEB00CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02DD333F-8641-B799-0F0F-6848F6A098AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>10</endValue>
+<description>Número de hermanos permitidos </description>
+</rangeDef>
+</listOfRanges>
+</attribute>
+</attributes>
+</Relation>

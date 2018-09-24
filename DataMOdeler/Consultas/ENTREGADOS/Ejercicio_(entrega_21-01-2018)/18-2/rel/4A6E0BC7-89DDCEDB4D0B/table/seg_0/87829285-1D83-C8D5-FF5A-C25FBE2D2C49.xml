@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87829285-1D83-C8D5-FF5A-C25FBE2D2C49" name="E4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>8A92475D-3CEB-0254-7795-D7AEA4378D96</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id4" id="C45E05B0-2BA2-24B5-33CB-913223364976">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>2406E710-350C-EF5F-A226-CAD7D020F909</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a11" id="2CDDCDC9-AF56-49E3-AF81-25E21DC97408">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>DF063CA8-7F19-BBCF-AC2B-E7495A69A26A</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a12" id="95DFCBA3-1810-7B6F-A795-F59FBD6CA49F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>91DA14DC-AD65-ACA2-4FBE-55FCA34D90C2</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>807CB78D-FFE3-FFD1-83EB-BFB41511156A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E2_id2" id="535EBFD6-B16B-E262-66A5-AA84DE6B2286">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>E86FACE9-548A-8322-F70D-232E9A735924</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C5E1E75-99AC-E765-B110-6BCC2B4E6AD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302BD68D-FE87-4DB2-F59A-C86B8C25D346" referredColumn="253DBC9D-FD31-6B3D-95E7-D8F6B88FEAB2"/>
+</associations>
+</Column>
+<Column name="a21" id="5C320E66-71C8-1D63-6BBC-052D57C17117">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>7092E409-AD1F-612A-F305-BFAC6AEE54D6</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71F8A309-B112-FC7C-0978-47E5D3952BD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>302BD68D-FE87-4DB2-F59A-C86B8C25D346</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="656689A6-BB7B-74FF-6931-A5012DC4A57D" name="E4_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>A854EAEC-40CB-53DE-ABFA-F36A4CD4A9BB</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45E05B0-2BA2-24B5-33CB-913223364976"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C6D55B4-90E0-D8BF-27A2-4C632AD814C5" name="E4_E2_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2018-01-23 11:46:13 UTC</createdTime>
+<generatorID>1160C15A-8894-C416-371D-3EB46EDF38EB</generatorID>
+<ownerDesignName>18-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="535EBFD6-B16B-E262-66A5-AA84DE6B2286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

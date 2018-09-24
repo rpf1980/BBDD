@@ -1,0 +1,172 @@
+
+CREATE TABLE alumno (
+    id_alumno          NUMBER NOT NULL,
+    dni_alumno         CHAR(9 CHAR) NOT NULL,
+    nombre_alumno      VARCHAR2(35 CHAR) NOT NULL,
+    apellido_alumno    VARCHAR2(110 CHAR) NOT NULL,
+    direccion_alumno   VARCHAR2(110 CHAR) NOT NULL,
+    telefono_alumno    NUMBER NOT NULL,
+    cp_alumno          NUMBER
+);
+
+ALTER TABLE alumno ADD CONSTRAINT alumno_pk PRIMARY KEY ( id_alumno );
+
+CREATE TABLE centro (
+    id_centro          NUMBER NOT NULL,
+    nombre_centro      VARCHAR2(35 CHAR) NOT NULL,
+    direccion_centro   VARCHAR2(110 CHAR) NOT NULL,
+    poblacion_centro   VARCHAR2(110 CHAR) NOT NULL,
+    provincia          VARCHAR2(110 CHAR) NOT NULL
+);
+
+ALTER TABLE centro ADD CONSTRAINT centro_pk PRIMARY KEY ( id_centro );
+
+CREATE TABLE curso (
+    id_curso       NUMBER NOT NULL,
+    nombre_curso   VARCHAR2(35 CHAR) NOT NULL
+);
+
+ALTER TABLE curso ADD CONSTRAINT curso_pk PRIMARY KEY ( id_curso );
+
+CREATE TABLE profesor (
+    id_profesor               NUMBER NOT NULL,
+    dni_profesor              CHAR(9 CHAR) NOT NULL,
+    nombre_profesor           VARCHAR2(35 CHAR) NOT NULL,
+    apellido_profesor         VARCHAR2(35 CHAR) NOT NULL,
+    direccion_profesor        VARCHAR2(110 CHAR),
+    telefono_profesor         NUMBER,
+    num_seg_social_profesor   NUMBER NOT NULL,
+    cp_profesor               NUMBER NOT NULL,
+    curso_id_curso            NUMBER NOT NULL
+);
+
+ALTER TABLE profesor ADD CONSTRAINT profesor_pk PRIMARY KEY ( id_profesor );
+
+CREATE TABLE provincia (
+    cod_provincia      NUMBER NOT NULL,
+    nombre_provincia   VARCHAR2(35 CHAR) NOT NULL,
+    centro_id_centro   NUMBER NOT NULL
+);
+
+ALTER TABLE provincia ADD CONSTRAINT provincia_pk PRIMARY KEY ( cod_provincia );
+
+CREATE TABLE r_centro_curso (
+    centro_id_centro   NUMBER NOT NULL,
+    curso_id_curso     NUMBER NOT NULL
+);
+
+ALTER TABLE r_centro_curso ADD CONSTRAINT r_centro_curso_pk PRIMARY KEY ( centro_id_centro,
+curso_id_curso );
+
+CREATE TABLE r_curso_alumno (
+    curso_id_curso     NUMBER NOT NULL,
+    alumno_id_alumno   NUMBER NOT NULL,
+    fecha_inicio       DATE NOT NULL,
+    fecha_final        DATE
+);
+
+ALTER TABLE r_curso_alumno ADD CONSTRAINT r_curso_alumno_pk PRIMARY KEY ( curso_id_curso,
+alumno_id_alumno );
+
+ALTER TABLE profesor
+    ADD CONSTRAINT profesor_curso_fk FOREIGN KEY ( curso_id_curso )
+        REFERENCES curso ( id_curso );
+
+ALTER TABLE provincia
+    ADD CONSTRAINT provincia_centro_fk FOREIGN KEY ( centro_id_centro )
+        REFERENCES centro ( id_centro );
+
+ALTER TABLE r_centro_curso
+    ADD CONSTRAINT r_centro_curso_centro_fk FOREIGN KEY ( centro_id_centro )
+        REFERENCES centro ( id_centro );
+
+ALTER TABLE r_centro_curso
+    ADD CONSTRAINT r_centro_curso_curso_fk FOREIGN KEY ( curso_id_curso )
+        REFERENCES curso ( id_curso );
+
+ALTER TABLE r_curso_alumno
+    ADD CONSTRAINT r_curso_alumno_alumno_fk FOREIGN KEY ( alumno_id_alumno )
+        REFERENCES alumno ( id_alumno );
+
+ALTER TABLE r_curso_alumno
+    ADD CONSTRAINT r_curso_alumno_curso_fk FOREIGN KEY ( curso_id_curso )
+        REFERENCES curso ( id_curso );
+
+INSERT INTO provincia VALUES(2,'Albacete',01);
+INSERT INTO provincia VALUES(3,'Alicante/Alacant',01);
+INSERT INTO provincia VALUES(4,'Almería',01);
+INSERT INTO provincia VALUES(1,'Araba/Álava',01);
+INSERT INTO provincia VALUES(33,'Asturias',01);
+INSERT INTO provincia VALUES(5,'Ávila',01);
+INSERT INTO provincia VALUES(6,'Badajoz',01);
+INSERT INTO provincia VALUES(7,'Baleares',01);
+INSERT INTO provincia VALUES(8,'Barcelona',01);
+INSERT INTO provincia VALUES(48,'Bizkaia',01);
+INSERT INTO provincia VALUES(9,'Burgos',01);
+INSERT INTO provincia VALUES(10,'Cáceres',01);
+INSERT INTO provincia VALUES(11,'Cádiz',10);
+INSERT INTO provincia VALUES(39,'Cantabria',10);
+INSERT INTO provincia VALUES(12,'Castellón',10);
+INSERT INTO provincia VALUES(51,'Ceuta',10);
+INSERT INTO provincia VALUES(13,'Ciudad Real',10);
+INSERT INTO provincia VALUES(14,'Córdoba',10);
+INSERT INTO provincia VALUES(15,'Coruña, A',10);
+INSERT INTO provincia VALUES(16,'Cuenca',10);
+INSERT INTO provincia VALUES(20,'Gipuzkoa',10);
+INSERT INTO provincia VALUES(17,'Girona',10);
+INSERT INTO provincia VALUES(18,'Granada',10);
+INSERT INTO provincia VALUES(19,'Guadalajara',10);
+INSERT INTO provincia VALUES(21,'Huelva',10);
+INSERT INTO provincia VALUES(22,'Huesca',10);
+INSERT INTO provincia VALUES(23,'Jaén',10);
+INSERT INTO provincia VALUES(24,'León',10);
+INSERT INTO provincia VALUES(27,'Lugo',11);
+INSERT INTO provincia VALUES(25,'Lleida',11);
+INSERT INTO provincia VALUES(28,'Madrid',11);
+INSERT INTO provincia VALUES(29,'Málaga',11);
+INSERT INTO provincia VALUES(52,'Melilla',11);
+INSERT INTO provincia VALUES(30,'Murcia',11);
+INSERT INTO provincia VALUES(31,'Navarra',11);
+INSERT INTO provincia VALUES(32,'Ourense',02);
+INSERT INTO provincia VALUES(34,'Palencia',02);
+INSERT INTO provincia VALUES(35,'Palmas, Las',02);
+INSERT INTO provincia VALUES(36,'Pontevedra',02);
+INSERT INTO provincia VALUES(26,'Rioja, La',02);
+INSERT INTO provincia VALUES(37,'Salamanca',02);
+INSERT INTO provincia VALUES(38,'Santa Cruz de Tenerife',02);
+INSERT INTO provincia VALUES(40,'Segovia',02);
+INSERT INTO provincia VALUES(41,'Sevilla',02);
+INSERT INTO provincia VALUES(42,'Soria',02);
+INSERT INTO provincia VALUES(43,'Tarragona',20);
+INSERT INTO provincia VALUES(44,'Teruel',20);
+INSERT INTO provincia VALUES(45,'Toledo',20);
+INSERT INTO provincia VALUES(46,'Valencia',20);
+INSERT INTO provincia VALUES(47,'Valladolid',20);
+INSERT INTO provincia VALUES(49,'Zamora',20);
+INSERT INTO provincia VALUES(50,'Zaragoza',20);
+
+INSERT INTO centro VALUES(01,'IES Tomillo Gordo','Avd. De La Cazuela Nº 33','Santa Cruz de Tenerife',38);
+INSERT INTO centro VALUES(10,'IES Gardenias Pochas','C/ Ferragaran','Lleida',25);
+INSERT INTO centro VALUES(11,'CP Reina Carlota','Avd. Medina Azahar S/N','Leon',24);
+INSERT INTO centro VALUES(02,'IES Domingos Diaz Libres','C/ Patorrengo Nº 21','Ciudad Real',13);
+INSERT INTO centro VALUES(20,'CP Veneguela Cortensia','Avd. De La Castaña S/N','Ceuta',51);
+
+INSERT INTO profesor VALUES(011,'15467912A','Magdalena','Vergara','C/ Salud De Campo Nº 12',900800700,'112233445566',10123,36933);
+INSERT INTO profesor VALUES(022,'57871622B','Sergio','Gonzalez','C/ Republica Checa Nº 40',800700600,'665544332211',11321,56399);
+INSERT INTO profesor VALUES(033,'46794333D','Mariano','Hernandez','Avd. Del Colesterol Nº 56',700600500,'221133114411',12205,78999);
+INSERT INTO profesor VALUES(044,'73849580H','Monica','Yastergo','C/ La Verdad Nº 1',600500400,'332211445577',13050,88564);
+INSERT INTO profesor VALUES(055,'52398348S','Julian','Carrasco','Avd. Gabildo del Corral Nº 3',555004008,'445566778899',14001,45885);
+
+INSERT INTO curso VALUES(36933,'Photoshop Avanzado');
+INSERT INTO curso VALUES(56399,'Diseno 3D');
+INSERT INTO curso VALUES(78999,'C Sharp');
+INSERT INTO curso VALUES(88564,'Bases de Datos');
+INSERT INTO curso VALUES(45885,'HTML5 y CSS');
+
+INSERT INTO alumno VALUES(7412,'78945600J','Antonio','Peralta','C/ Mallorquina Nº 4',966888777,20200);
+INSERT INTO alumno VALUES(1250,'45785451U','Felipe','Rapapolvo','C/ Golondrina Nº 98',966777888,21203);
+INSERT INTO alumno VALUES(5852,'96988747P','Julia','Fernandez','C/ Mayor Nº 34',965444111,21605);
+INSERT INTO alumno VALUES(9852,'44787262E','Maria','Pena','C/ Jollena Nº 94',699966333,17005);
+INSERT INTO alumno VALUES(8574,'11245796X','Domingo','Olgado','C/ Lucimonge Nº 42',698123456,17012);
+commit;
+

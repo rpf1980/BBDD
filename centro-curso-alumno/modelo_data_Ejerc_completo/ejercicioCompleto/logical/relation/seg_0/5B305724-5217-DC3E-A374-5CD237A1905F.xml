@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_curso_alumno" directorySegmentName="seg_0" id="5B305724-5217-DC3E-A374-5CD237A1905F">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 19:40:08 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>90F9E6F2-3990-9B75-4070-A623DA26A8DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CD3A344-37D6-CF99-A8F4-37AC3F924C7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_inicio" id="36B82173-641A-176E-1CF6-43219F8337F1">
+<createdBy>polo</createdBy>
+<createdTime>2018-03-13 12:06:18 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_final" id="DAF7F2AE-44BA-8B4B-A676-A78E17B25F4A">
+<createdBy>polo</createdBy>
+<createdTime>2018-03-13 12:06:19 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="EF9B8B48-8FFC-254B-3C8F-1CCE0D9C5743" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

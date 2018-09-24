@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EC4B27E-5BD6-01CC-37E0-99237FBDB5AA" name="r_cent_cur">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Centro_id_centro" id="529FB295-57E9-BD41-9AFE-305EA227850B">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF7099A8-E540-773C-83F9-B745442E93E2" referredColumn="FA7A5DB4-1684-31D7-8EDC-C9424581EFA3"/>
+</associations>
+</Column>
+<Column name="Curso_id_curso1" id="99AE2014-012A-EC86-8664-3DF99EA00638">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A12B449-1315-A0E0-1A12-68A054692372" referredColumn="4E0FCA3F-57E4-DB66-B94D-16373E72E36D"/>
+</associations>
+</Column>
+<Column name="Curso_codigo_profesor1" id="A33D1E5D-4C33-1B91-5567-65BE7E7983DD">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A12B449-1315-A0E0-1A12-68A054692372" referredColumn="6CFD9AEB-3FC6-DC58-1DF2-7AE80DB045A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B77A4AA-0BD8-FABD-115C-EEACACFD1F9C" name="relacion_centro_cursov1_PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529FB295-57E9-BD41-9AFE-305EA227850B"/>
+<colUsage columnID="99AE2014-012A-EC86-8664-3DF99EA00638"/>
+<colUsage columnID="A33D1E5D-4C33-1B91-5567-65BE7E7983DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DF9C4A0-61DA-B5D5-4A9C-03DFD730877C" name="relacion_centro_cursov1_Centro_FK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<generatorID>1462A197-1062-D1CC-6CC4-8D114624DA86</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529FB295-57E9-BD41-9AFE-305EA227850B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49C6AFBA-2160-DA85-177B-63E99C417337" name="relacion_centro_cursov1_Curso_FK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:56:05 UTC</createdTime>
+<generatorID>1462A197-1062-D1CC-6CC4-8D114624DA86</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99AE2014-012A-EC86-8664-3DF99EA00638"/>
+<colUsage columnID="A33D1E5D-4C33-1B91-5567-65BE7E7983DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="357B79AE-89A7-5C8F-7FD6-D6FFBBC33979" name="E_1">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:17 UTC</createdTime>
+<generatorID>484662D7-CB72-2C2A-95EE-8E6CE8CFB8BA</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_1" id="9EF913F9-EDF7-4ECF-CC81-7C0193182365">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>A6E09234-9110-44B6-A271-262F3CCDC87B</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_1_id_1" id="CC4F261C-6A46-EFDD-2273-F3EA203F0B73">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>88B2796D-BD85-B6FE-2646-DFA3C0700553</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>533650E0-4A7B-8FF9-C6D6-0527D1E986E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E085E4C-07AA-A83A-86D1-6CECB1161426" referredColumn="9EF913F9-EDF7-4ECF-CC81-7C0193182365"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3039FAF0-5D5C-BE09-397C-DC6C47E58DDD" name="E_1_PK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>F6B35747-8C1F-0390-EBCC-249E3629C024</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF913F9-EDF7-4ECF-CC81-7C0193182365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D207658A-BD01-1880-37A3-C20AC352AE64" name="E_1_E_1_FK">
+<createdBy>RPF</createdBy>
+<createdTime>2018-01-18 12:43:18 UTC</createdTime>
+<generatorID>85AFE2DE-CEC2-B217-52B6-0F82D84CDCD2</generatorID>
+<ownerDesignName>Ejerc_entrega_18-01-2018_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC4F261C-6A46-EFDD-2273-F3EA203F0B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

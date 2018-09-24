@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19D116F7-EB15-1549-D9A5-4185BBAA4587" name="relacion_curso_alumno">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_id_curso" id="A6E92465-EDF1-5A73-6784-C9DEFEC04BB4">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB26681-B972-9D27-7753-9D9EE10B36A7" referredColumn="9B722B51-ADF3-98DD-A210-1E92401E1E91"/>
+</associations>
+</Column>
+<Column name="Curso_codigo_centro" id="5F16D656-DC4C-89D1-8B14-7DA4910211EC">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB26681-B972-9D27-7753-9D9EE10B36A7" referredColumn="CD3F1CCA-1041-24C8-F296-1FB247E3BD2D"/>
+</associations>
+</Column>
+<Column name="Curso_codigo_profesor" id="55B35CFE-2E8C-C3AB-87A7-1BFF81F84FB1">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>19F3F0DB-D1AE-EDFA-6483-D2B7B7301A34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB26681-B972-9D27-7753-9D9EE10B36A7" referredColumn="3B1AB6A1-66EF-A39E-7D3D-EF5CD1D6AE28"/>
+</associations>
+</Column>
+<Column name="Alumno_id_alumno" id="9C5277EA-1CB1-2C38-64BD-E0F27C2A83D3">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2B01934D-F058-006E-3830-CA0D0633D003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C745DE3-21BD-80DD-0901-8794B8EEAA52" referredColumn="8CFB766A-65EE-42C6-6DF0-CF564FA26F0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E23959A4-8A2B-8E68-A21F-6DEA6171858E" name="relacion_curso_alumno_PK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6E92465-EDF1-5A73-6784-C9DEFEC04BB4"/>
+<colUsage columnID="5F16D656-DC4C-89D1-8B14-7DA4910211EC"/>
+<colUsage columnID="55B35CFE-2E8C-C3AB-87A7-1BFF81F84FB1"/>
+<colUsage columnID="9C5277EA-1CB1-2C38-64BD-E0F27C2A83D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44193BC1-9E1A-24A3-2E21-88153A85554E" name="relacion_curso_alumno_Curso_FK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>8CA90F7F-C687-1BDD-6229-C7B75F508BC0</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6E92465-EDF1-5A73-6784-C9DEFEC04BB4"/>
+<colUsage columnID="5F16D656-DC4C-89D1-8B14-7DA4910211EC"/>
+<colUsage columnID="55B35CFE-2E8C-C3AB-87A7-1BFF81F84FB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ED1EBD4-0FE5-493C-373A-0DB2C2F64685" name="relacion_curso_alumno_Alumno_FK">
+<createdBy>Rafa</createdBy>
+<createdTime>2018-03-12 17:48:46 UTC</createdTime>
+<generatorID>8CA90F7F-C687-1BDD-6229-C7B75F508BC0</generatorID>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C5277EA-1CB1-2C38-64BD-E0F27C2A83D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

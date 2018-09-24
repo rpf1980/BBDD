@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_centro_provincia" directorySegmentName="seg_0" id="3BEF8AA0-70F1-4473-EFDC-A544F51394D2">
+<createdBy>polo</createdBy>
+<createdTime>2018-03-13 12:09:29 UTC</createdTime>
+<ownerDesignName>ejercicioCompleto</ownerDesignName>
+<engineerTo>
+<item key="1447AEB4-4ACE-173C-C209-F0464284A26A" value="true"/>
+</engineerTo>
+<sourcePk>7017CD74-B887-BE2D-3BAC-3FF84D3F8A32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B58FE6A6-12EA-3C4C-5D2D-96794CAD04F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BACA2651-AE9E-BC0B-B805-C01D01D4C4D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
